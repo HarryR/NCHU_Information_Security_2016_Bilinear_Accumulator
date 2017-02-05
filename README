@@ -1,0 +1,19 @@
+Environment:
+Debian Jessie
+GCC 4.9
+
+
+Installation and Requirements::
+$ sudo apt install flex bison libgmp-dev
+$ cd pbc
+$ ./configure --prefix=$HOME/.local
+$ make
+$ make install
+
+
+Execution:
+-Compile and run myprog.c
+./run.sh myprog
+
+-Compile and run example program
+./run.sh
