@@ -1,1 +1,11 @@
 To run, type `make` after checkout out source code
+
+Dependencies:
+
+ * flex
+ * bison
+ * automake
+ * libtool
+ * autoconf
+ * libgmp-dev
+
